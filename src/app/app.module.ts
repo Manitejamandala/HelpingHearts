@@ -11,6 +11,8 @@ import { PhotosPageComponent } from './photos-page/photos-page.component';
 import { FooterPageComponent } from './footer-page/footer-page.component';
 import { HeaderPageComponent } from './header-page/header-page.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { MissionPageComponent } from './mission-page/mission-page.component';
+import { CertificationPageComponent } from './certification-page/certification-page.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { HomePageComponent } from './home-page/home-page.component';
     PhotosPageComponent,
     FooterPageComponent,
     HeaderPageComponent,
-    HomePageComponent
+    HomePageComponent,
+    MissionPageComponent,
+    CertificationPageComponent
   ],
   imports: [
     BrowserModule,
